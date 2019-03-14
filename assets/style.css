@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito+Sans:400,700');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#hero {
+    background-color: #920e1d;
+    background-image: url(../assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    padding-bottom: 2em;
+    color: white;
+}
+
+#hero nav .container {
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    padding: 10px 0;
+    margin-bottom: 8em;
+}
+
+#hero nav .container .nav-link {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 2.5em;
+    padding-right: 0;
+}
+
+#hero nav .container .nav-link.cta {
+    border-radius: 6px;
+    border: 2px solid white;
+    padding: .4em .7em .2em;
+    margin-left: 2.5em;
+    transition: 400ms linear;
+}
+
+#hero nav .container .nav-link.cta:hover {
+    background-color: white;
+    color: #920e1d;
+    transition: 400ms linear;
+}
+
+#hero h1 {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+#hero h2 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#hero #contact-us {
+    font-size: 24px;
+    border-radius: 6px;
+    border: 2px solid white;
+    padding: .6em 1em .5em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 400ms linear;
+}
+
+#hero #contact-us:hover {
+    background-color: white;
+    color: #920e1d;
+    transition: 400ms linear;
+}
+
+#hero #free-quotes {
+    margin-top: 1.8em;
+    margin-bottom: 5em;
+}
+
+@media (max-width: 768px) {
+    #hero {
+        background-size: 250%;
+    }
+    #hero .profile {
+        text-align: center;
+        margin: 0;
+        transform: scale(0.7);
+    }
+    #hero nav .container {
+        margin-bottom: 3em;
+    }
+    #hero h1 {
+        font-size: 2em;
+    }
+    #hero h2 {
+        font-size: 1.2em;
+    }
+    #hero .navbar-nav {
+        margin-top: 1em;
+    }
+    #hero nav .container .nav-link {
+        margin: 0 0 0.5em 0;
+        padding: 0;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    #hero nav .container .nav-link:hover {
+        text-decoration: underline;
+    } 
+    #hero nav .container .nav-link.cta {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    #hero nav .container .nav-link.cta:hover {
+        background: none;
+        color: white;
+    }
+    .spinny-wrapper {
+        margin-top: 1em !important;
+    }
+    .spinny-words {
+        width: 80px !important;
+    }
+}
+
+#services {
+    padding-top: 3em;
+}
+#services h2, #clients h2, #contact h2 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+#services h4, #clients h4, #contact h4 {
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 0;
+    font-weight: normal;
+    color: #666666;
+}
+#services #techstack {
+    margin: 4em 0 6em;
+    border-bottom: 1px solid #bfbfbf;
+    border-top: 1px solid #bfbfbf;
+    padding: 1em 0;
+}
+#services #techstack i {
+    font-size: 5em;
+    margin: 0 .1em;
+    color: #bfbfbf;
+}
+
+#services .cardcontainer {
+    margin: 3em 0;
+}
+
+#services .card {
+    border: 0;
+    background-color: #f7f8f8;
+    border-radius: 0.5em;
+}
+
+#services .card .icon {
+    text-align: center;
+    height: 70px;
+}
+
+#services .card .icon img {
+    margin-top: -42px;
+}
+
+#services .big-cta {
+    transition: 400ms linear;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 2em;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #920e1d;
+    background-color: #920e1d;
+    font-weight: bold;
+}
+
+#services .big-cta:hover {
+    transition: 400ms linear;
+    color: #920e1d;
+    border: 2px solid #920e1d;
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    #services #techstack i {
+        font-size: 3.5em;
+    }
+    #services .card {
+        margin-bottom: 4em;
+    }
+}
+
+#clients {
+    background-color: #f7f8f8;
+    padding: 3em 0;
+    margin-top: 3em;
+}
+
+#clients .row {
+    margin-top: 4em;
+}
+
+#clients .img-fluid {
+    margin-bottom: 5em;
+}
+
+#contact {
+    background-color: #3e4549;
+    padding: 3em 0;
+    color: white;
+}
+
+#contact h4 {
+    color: #f7f8f8;
+}
+
+#contact .card {
+    color: black;
+    margin-top: 2em;
+}
+
+#contact .card h4 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.1em;
+    margin-bottom: .5em;
+}
+
+#contact .card h3 {
+    margin: 0;
+}
+
+#contact button {
+    background-color: #920e1d;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+}
+
+#contact input, #contact select {
+    border: none;
+    outline: 2px red;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 1em 0;
+}
+
+#footer .fab {
+    font-size: 1.5em;
+    margin-left: .2em;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+    transition: 400ms linear;
+}
+
+#footer a:hover {
+    transition: 400ms linear;
+    opacity: .6;
+}
+
+/* word rotator */
+.spinny-wrapper{
+    margin-top: 3em;
+    margin-bottom: 11em;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.spinny-words{
+    display: inline-block;
+    width: 145px;
+    text-align: left;
+}
+.spinny-words span{
+    position: absolute;
+    font-weight: bold;
+    top:-0px;
+    opacity: 0;    
+    animation: rotateWord 18s linear infinite 0s;
+}
+.spinny-words span:nth-child(2) { 
+    animation-delay: 3s; 
+}
+.spinny-words span:nth-child(3) { 
+    animation-delay: 6s; 
+}
+.spinny-words span:nth-child(4) { 
+    animation-delay: 9s; 
+}
+.spinny-words span:nth-child(5) { 
+    animation-delay: 12s; 
+}
+.spinny-words span:nth-child(6) { 
+    animation-delay: 15s; 
+}
+@keyframes rotateWord {
+  0%   { opacity: 0; }
+  2%   { opacity: 0; transform: translateY(-30px); }
+  5%   { opacity: 1; transform: translateY(0px);}
+  17%  { opacity: 1; transform: translateY(0px); }
+  20%  { opacity: 0; transform: translateY(30px); }
+  80%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.6);
+    border-color: rgba(255,255,255,.6);
+}
