@@ -22,6 +22,14 @@
     <meta property="twitter:title" content="South Target — A Software Development Boutique">
     <meta property="twitter:description" content="Our focus is to deliver great value to our customers. We are a small software development company with a strong focus on web development. JavaScript and PHP are our main expertise.">
     <meta property="twitter:image" content="https://i.imgur.com/PsZTJ3a.jpg">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136315960-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-136315960-1');
+    </script>
   </head>
   <body>
 
@@ -188,7 +196,7 @@
 
     <div class="row">
       <div class="col-md-6">
-        <form action="https://formspree.io/saitam06@gmail.com" method="POST">
+        <form action="https://formspree.io/matias@southtarget.com" method="POST">
           <div class="form-group">
             <label for="name">Full Name <small><i>(required)</i></small></label>
             <input name="name" type="text" class="form-control" id="name" placeholder="John Doe" required>
@@ -201,7 +209,10 @@
             <label for="subject">Subject <small><i>(required)</i></small></label>
             <select name="subject" id="subject" class="form-control" required>
               <option selected>What's this about?</option>
-              <option>...</option>
+              <option>General Inquiry</option>
+              <option>Quotation</option>
+              <option>Partnerships</option>
+              <option>White Label Services</option>
             </select>
           </div>
           <div class="form-group">
